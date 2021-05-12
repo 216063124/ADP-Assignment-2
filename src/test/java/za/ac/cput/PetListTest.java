@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * Student Number: 216063124
  */
 
-public class PetTest {
+public class PetListTest {
 
     List<Pet> petList = new ArrayList<>();
 
