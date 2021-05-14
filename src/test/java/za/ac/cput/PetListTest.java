@@ -2,7 +2,8 @@ package za.ac.cput;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -23,7 +24,7 @@ public class PetListTest {
     }
 
     @Test
-    //List Add
+        //List Add
     void testAdd(){
         fillList();
         petList.add(10, new Pet("Pet10"));
@@ -36,5 +37,15 @@ public class PetListTest {
         fillList();
         petList.remove(7);
         assertEquals(9,petList.size());
+    }
+
+    @Test
+        //List Find
+    void testFind(){
+        Pet pet1 = new Pet("Pet");
+        petList.add(pet1);
+        boolean found = petList.contains("Pet");
+        System.out.println(petList);
+        assertSame(true,found);
     }
 }
