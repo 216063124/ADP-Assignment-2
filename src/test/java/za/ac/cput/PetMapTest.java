@@ -42,4 +42,21 @@ public class PetMapTest {
 
         assertEquals(9,petMap.size());
     }
+
+    @Test
+        //Map find
+    void testFind(){
+        Pet pet1 = new Pet("Pet1");
+        Pet pet2 = new Pet("Pet2");
+        Pet pet3 = new Pet("Pet3");
+
+        petMap.put(1, pet1);
+        petMap.put(2, pet2);
+        petMap.put(3, pet3);
+
+        Pet found = petMap.get(2);
+        System.out.println(petMap);
+
+        assertSame(pet2 , found);
+    }
 }
