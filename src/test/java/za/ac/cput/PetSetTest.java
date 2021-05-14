@@ -1,5 +1,10 @@
 package za.ac.cput;
 
+/**
+ * Author: Grant Constant
+ * Student Number: 216063124
+ */
+
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
@@ -21,9 +26,19 @@ public class PetSetTest {
 
 
     @Test
+        //Set Add
     void testAdd(){
         fillSet();
-        assertEquals(10,petSet.size());
+        Pet p = new Pet("Pet11");
+        petSet.add(p);
+        assertEquals(11,petSet.size());
+    }
 
+    @Test
+        //Set Remove
+    void testRemove(){
+        fillSet();
+        Boolean isRemoved = petSet.removeAll(petSet);
+        assertEquals(true, isRemoved);
     }
 }

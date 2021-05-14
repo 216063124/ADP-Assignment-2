@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -36,16 +37,13 @@ public class PetListTest {
     void testRemove(){
         fillList();
         petList.remove(7);
+        System.out.println(petList);
         assertEquals(9,petList.size());
     }
 
-    /*@Test
+    @Test
         //List Find
     void testFind(){
-        Pet pet1 = new Pet("Pet");
-        petList.add(pet1);
-        boolean found = petList.contains("Pet");
-        System.out.println(petList);
-        assertSame(true,found);
-    }*/
+
+    }
 }
