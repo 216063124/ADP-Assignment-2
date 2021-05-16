@@ -41,4 +41,22 @@ public class PetSetTest {
         Boolean isRemoved = petSet.removeAll(petSet);
         assertEquals(true, isRemoved);
     }
+
+    @Test
+        //Set Find
+    void testFind() {
+        Pet pet1 = new Pet("Pet1");
+        Pet pet2 = new Pet("Pet2");
+        Pet pet3 = new Pet("Pet3");
+
+        petSet.add(pet1);
+        petSet.add(pet2);
+        petSet.add(pet3);
+
+        Boolean found = petSet.contains(pet2);
+        System.out.println(found);
+
+        assertEquals(true , found);
+
+    }
 }

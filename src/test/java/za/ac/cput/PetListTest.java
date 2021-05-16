@@ -1,5 +1,10 @@
 package za.ac.cput;
 
+/**
+ * Author: Grant Constant
+ * Student Number: 216063124
+ */
+
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -7,10 +12,6 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Author: Grant Constant
- * Student Number: 216063124
- */
 
 public class PetListTest {
 
@@ -44,6 +45,15 @@ public class PetListTest {
     @Test
         //List Find
     void testFind(){
+        Pet pet1 = new Pet("Pet1");
+        Pet pet2 = new Pet("Pet2");
+        Pet pet3 = new Pet("Pet3");
 
+        petList.add(pet1);
+        petList.add(pet2);
+        petList.add(pet3);
+
+        Boolean found = petList.contains(pet2);
+        assertEquals(true , found);
     }
 }

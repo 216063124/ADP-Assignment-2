@@ -29,8 +29,6 @@ public class PetMapTest {
         Pet pet10 = new Pet("Pet10");
         petMap.put(10, pet10);
 
-        System.out.println(petMap);
-
         assertEquals(11, petMap.size());
     }
 
