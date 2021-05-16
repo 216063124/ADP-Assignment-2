@@ -1,4 +1,4 @@
-package za.ac.cput;
+package za.ac.cput.assignment2;
 
 import java.util.Objects;
 

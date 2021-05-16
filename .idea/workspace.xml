@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff9509df-ce17-40e6-853f-79a92feab89a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/assignment2/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/PetCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/assignment2/PetCollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/PetListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/assignment2/PetListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/PetMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/assignment2/PetMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/PetSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/assignment2/PetSetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +55,28 @@
       <recent name="za.ac.cput" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetMapTest">
+  <component name="RunManager" selected="JUnit.PetCollectionTest (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetCollectionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ADP Assignment 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.ac.cput.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.assignment2.PetCollectionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,22 +93,6 @@
       <option name="PACKAGE_NAME" value="za.ac.cput" />
       <option name="MAIN_CLASS_NAME" value="za.ac.cput.PetCollectionTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetCollectionTest.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ADP Assignment 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="za.ac.cput.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="za.ac.cput" />
-      <option name="MAIN_CLASS_NAME" value="za.ac.cput.PetCollectionTest" />
-      <option name="METHOD_NAME" value="testFind" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PetCollectionTest (1)" />
         <item itemvalue="JUnit.PetMapTest" />
         <item itemvalue="JUnit.PetSetTest" />
         <item itemvalue="JUnit.PetListTest" />
         <item itemvalue="JUnit.PetCollectionTest" />
-        <item itemvalue="JUnit.PetCollectionTest.testFind" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +166,7 @@
       <workItem from="1620924146928" duration="1627000" />
       <workItem from="1620991994001" duration="5571000" />
       <workItem from="1621001892007" duration="9894000" />
-      <workItem from="1621163825784" duration="5001000" />
+      <workItem from="1621163825784" duration="5663000" />
     </task>
     <task id="LOCAL-00001" summary="updated ignore">
       <created>1620825423169</created>
@@ -235,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621169486468</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Final commit">
+      <created>1621169574269</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621169574269</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +259,7 @@
     <MESSAGE value="Added Map find and remove tests" />
     <MESSAGE value="Found a way to test find in map" />
     <MESSAGE value="Added collection test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added collection test class" />
+    <MESSAGE value="Final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final commit" />
   </component>
 </project>
